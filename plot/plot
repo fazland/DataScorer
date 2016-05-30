@@ -1,0 +1,12 @@
+##!/opt/local/bin/gnuplot
+
+set terminal png
+set output "benchmark.png"
+set title "Tanimoto Similiarity"
+set size 1,1
+set xlabel "evaluation"
+set ylabel "alg. score"
+set ytics ".2"
+plot "gnuplot.dat"  smooth sbezier with lines title "Tanimoto", "gnuplot1.dat" smooth sbezier with lines title "LogLikely"
+
+pause -1 "Hit any key to continue"
