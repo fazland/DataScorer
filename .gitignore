@@ -1,4 +1,5 @@
 .idea/*
+target/*
 profession_user.csv
 service_user.csv
 
