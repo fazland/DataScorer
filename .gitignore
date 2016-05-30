@@ -1,5 +1,5 @@
 .idea/*
-target/*
+target/classes/com/*
 profession_user.csv
 service_user.csv
 
