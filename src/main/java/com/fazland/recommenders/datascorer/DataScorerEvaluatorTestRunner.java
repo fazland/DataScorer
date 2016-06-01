@@ -10,7 +10,7 @@ public class DataScorerEvaluatorTestRunner {
 
         double[] neiborhoods = {1,2,4,8,16,32,64,128,512};
         double[] threshold = {0.98, 0.9, 0.85, 0.8, 075, 0.7};
-        DataScorer a = new DataScorer("./profession_user.csv", neiborhoods, threshold);
+        DataScorer a = new DataScorer("./input.csv", neiborhoods, threshold);
 
         System.out.println("*********");
         a.doBoolItemTanimotoScore();
